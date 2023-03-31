@@ -10,7 +10,7 @@ st.markdown(""" A web app to visualize and analyze the covid-19 data from india
 """)
 
 ## inserting Image
-st.image('https://preparecenter.org/wp-content/uploads/2020/05/IFRC-yellow-COVID-banner-1024x448.png', caption="Image by sachin")
+st.image('https://preparecenter.org/wp-content/uploads/2020/05/IFRC-yellow-COVID-banner-1024x448.png', caption="Covid 19 Image")
 
 ## read csv data
 df = pd.read_csv(r"https://raw.githubusercontent.com/imdevskp/covid-19-india-data/master/complete.csv")
