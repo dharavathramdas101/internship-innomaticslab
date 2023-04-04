@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Short URL{% endblock %}
+
+{% block content %}
+    
+    <div>
+        <label>SHORT URL</label>
+        <input type="text" value="127.0.0.1:5000/{{short_url_display}}" id="myInput">
+        <input type="submit" onclick="myFunction()" value="Copy URL">
+      </div>
+{% endblock %}
